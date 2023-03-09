@@ -68,7 +68,7 @@ public class Exercise1 {
     int a = 4;
     int b = 3;
     // Fix it
-    int reminder = a - b;
+    int reminder = a % b;
     System.out.println("The variable reminder is " + reminder);
 
     // declare a variable x and assign value to it.
@@ -79,5 +79,6 @@ public class Exercise1 {
     int x = 2;
     int result = e - o * x / y;
     System.out.println("The result is " + result);
+
   }
 }
