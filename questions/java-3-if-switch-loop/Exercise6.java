@@ -43,7 +43,7 @@ public class Exercise6 {
       // left "space " end
 
       // left "*" start
-      for (j = i; j >= 0; j--) {// j= 0 start , 0 >= 0 : j--
+      for (j = i; j >= 0; j--) {
         System.out.print('*');
       }
       // left "*" end
@@ -58,19 +58,17 @@ public class Exercise6 {
     }
 
     // lower loop
-    for (i = 0; i <= r; i++) {
+    for (i = 1; i <= r; i++) {  //i= 1 , 1 <= 5 , next i = 2
 
-    
-      for (j = i; j > 0; j--) {
-        System.out.print(' ');
+      for (j = i; j >= 0; j--) {
+        System.out.print(" ");
       }
-   
 
-      for (j = i; j < r; j++) { 
+      for (j = i + 1; j < r; j++) { // j = 1 , j < 5 , j = 2
         System.out.print('*');
       }
 
-      for (j = i; j <= r; j++) {
+      for (j = i + 1; j <= r; j++) {
         System.out.print('*');
       }
       System.out.println();
@@ -87,12 +85,3 @@ public class Exercise6 {
 
   }
 }
-
-/*
- * 5 = 3 2
- * 3 = 2 1
- * 1 = 1
- * 
- * 
- * 
- */
