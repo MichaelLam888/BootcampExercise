@@ -35,6 +35,9 @@ public class Exercise1 {
 
     // subtraction
     // code here with tips, pls fix
+    second = 31;
+    first = 42;
+
     // subtract = first - second
     int subtract = first - second;
     System.out.println("The subtraction reuslt is " + subtract);
