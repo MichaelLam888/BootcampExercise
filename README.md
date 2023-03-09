@@ -1,1 +1,2 @@
-# BootcampExercise
+# bc-exercise
+Bootcamp Exercise Questions
