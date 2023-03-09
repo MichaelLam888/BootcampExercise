@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 /**
  * Expected Output:
  * 
@@ -30,9 +31,23 @@ public class Exercise3 {
     switch (month) {
       case 1:
         MonthOfName = "January";
+        number_Of_DaysInMonth = 31;
         // Code here
+        break;
       case 2:
         MonthOfName = "February";
+        if (year % 400 == 0) {
+          number_Of_DaysInMonth = 29;
+        } else {
+          number_Of_DaysInMonth = 28;
+        }
+        break;
+        case 12:
+        MonthOfName = "December";
+        number_Of_DaysInMonth = 31;
+        // Code here
+        break;
+
         // The February has 29 days: (Every 4 years and the year cannot divded by 100)
         // or The year can divided by 400
         // otherwise the February should have 28 days only
