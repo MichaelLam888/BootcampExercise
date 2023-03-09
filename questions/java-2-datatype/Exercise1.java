@@ -79,6 +79,6 @@ public class Exercise1 {
     int x = 2;
     int result = e - o * x / y;
     System.out.println("The result is " + result);
-
+    System.out.println(Math.PI);
   }
 }
