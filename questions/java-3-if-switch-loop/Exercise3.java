@@ -47,6 +47,9 @@ public class Exercise3 {
         number_Of_DaysInMonth = 31;
         // Code here
         break;
+        default :
+        MonthOfName = "Error";
+        break;
 
         // The February has 29 days: (Every 4 years and the year cannot divded by 100)
         // or The year can divided by 400

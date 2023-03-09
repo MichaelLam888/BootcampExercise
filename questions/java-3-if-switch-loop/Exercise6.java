@@ -43,7 +43,7 @@ public class Exercise6 {
       // left "space " end
 
       // left "*" start
-      for (j = i; j >= 0; j--) {
+      for (j = i; j >= 0; j--) {// j= 0 start , 0 >= 0 : j--
         System.out.print('*');
       }
       // left "*" end
@@ -57,17 +57,26 @@ public class Exercise6 {
 
     }
 
- 
     // lower loop
-    for (i = 0; i < r; i++) { 
-      // right "*" start
+    for (i = 0; i <= r; i++) {
+
+    
       for (j = i; j > 0; j--) {
-        System.out.print('#');
+        System.out.print(' ');
       }
-      // right "*" end
-     
+   
+
+      for (j = i; j < r; j++) { 
+        System.out.print('*');
+      }
+
+      for (j = i; j <= r; j++) {
+        System.out.print('*');
+      }
+      System.out.println();
     }
     System.out.println();
+
     // Upper Part: increasing parttern
     // Think about how to print " " and "*"
     // and when to new line
@@ -78,3 +87,12 @@ public class Exercise6 {
 
   }
 }
+
+/*
+ * 5 = 3 2
+ * 3 = 2 1
+ * 1 = 1
+ * 
+ * 
+ * 
+ */
